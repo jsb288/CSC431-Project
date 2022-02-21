@@ -16,20 +16,6 @@ public class PlayerCreation extends Setup {
 	HashMap<String, Integer> Abilities;
 	HashMap<String, Integer> AbilityMod;
 	
-public static void main(String[] args) {
-		
-		PlayerCreation test = new PlayerCreation();
-		test.loadClasses();
-		test.loadRaces();
-		test.loadRaceModifiers();
-		test.loadHitDice();
-		test.chooseClass();
-		test.chooseRace();
-		test.rollAbilities();
-		test.racialMod();
-		test.HP();
-		
-	}
 	
 	public String chooseClass() {
 	System.out.println("Choose a class:");
