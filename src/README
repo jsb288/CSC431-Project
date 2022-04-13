@@ -1,2 +1,7 @@
 
-File for java code for application
+Code Files for CharacterSmith3.5
+
+TO RUN CharacterSmith3.5:
+1. Download all folders in /src into same folder
+2. Download resource folder into the folder
+3. In order to run, run "Main" class in main package
