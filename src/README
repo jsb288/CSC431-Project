@@ -1,7 +1,18 @@
-
 Code Files for CharacterSmith3.5
 
 TO RUN CharacterSmith3.5:
-1. Download all folders in /src into same folder
-2. Download resource folder into the folder
+1. Download /src folder into directory
+2. Download /resources folder into the directory
 3. In order to run, run "Main" class in main package
+
+
+Current Features:
+- Use GUIs to guide user through character creation method
+- User is provided with lists of Races and Classes to choose from for their character
+- User has ability scores generated for them which they can assign to their character
+- Ability modifiers are automatically calculated by app for User
+- User can enter a final view mode, where they can easily see all details for their character for quick reference
+
+Additional Notes:
+- When clicking the export button in the ExportUI, a message will appear telling the user that their character has been successfuly exported. In fact, this button does nothing but display this message, and nothing is exported
+
