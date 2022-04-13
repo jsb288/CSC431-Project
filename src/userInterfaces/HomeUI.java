@@ -9,6 +9,7 @@ import javax.swing.JLabel;
 
 import utils.*;
 
+@SuppressWarnings("serial")
 public class HomeUI extends JFrame implements CSmithUI{
 
 	JButton createCharBtn = new JButton("Create New Character");

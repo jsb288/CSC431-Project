@@ -7,8 +7,10 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JPanel;
 
-public interface CSmithUI extends ActionListener{
+@SuppressWarnings("serial")
+interface CSmithUI extends ActionListener{
 
+	
 	
 	class MainPanel extends JPanel {
 		public MainPanel() {

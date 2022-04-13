@@ -1,8 +1,6 @@
 package main;
 
-import characterTraits.AbilityScores;
-import characterTraits.CharacterClass;
-import characterTraits.Race;
+import characterTraits.*;
 import utils.*;
 
 public class CharacterCreator {
@@ -10,7 +8,7 @@ public class CharacterCreator {
 	public static CharacterClass characterClass;
 	public static int level;
 	public static Race race;
-	public static AbilityScores abilityScores;
+	public static AbilityScore abilityScores[];
 	
 	
 }
